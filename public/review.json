@@ -1,0 +1,38 @@
+[
+    {
+      "user": {
+        "name": "John Doe",
+        "location": "New York, NY",
+        "image": "https://i.ibb.co/wCpyqPN/pexels-creation-hill-1681010.jpg"
+      },
+      "rating": 4.5,
+      "review_date": "2023-10-22",
+      "comment": "I had a great experience buying a car from this dealership. The staff was friendly and knowledgeable, and they helped me find the perfect car for my needs. The whole process was smooth and efficient.",
+      "likes": 15,
+      "dislikes": 2
+    },
+    {
+      "user": {
+        "name": "Jane Smith",
+        "location": "Los Angeles, CA",
+        "image": "https://i.ibb.co/s2tsPzp/pexels-stefan-stefancik-91227.jpg"
+      },
+      "rating": 5.0,
+      "review_date": "2023-10-21",
+      "comment": "I couldn't be happier with the car I purchased from this dealership. The quality of service and the wide range of car options were impressive. I highly recommend this place to anyone in the market for a new car.",
+      "likes": 25,
+      "dislikes": 0
+    },
+    {
+      "user": {
+        "name": "Mike Johnson",
+        "location": "Chicago, IL",
+        "image": "https://i.ibb.co/tb0CgnS/pexels-pixabay-220453.jpg"
+      },
+      "rating": 3.5,
+      "review_date": "2023-10-20",
+      "comment": "The sales team was helpful, but the finance department tried to upsell me on unnecessary add-ons. Overall, it was a decent experience, but I wish they were more transparent about the costs.",
+      "likes": 10,
+      "dislikes": 5
+    }
+  ]

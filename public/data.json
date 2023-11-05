@@ -1,0 +1,182 @@
+[
+  {
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2023,
+    "price": 30000,
+    "image": "https://i.ibb.co/RPFLzZ8/car-Image1.jpg",
+    "description": "The Toyota Camry is a midsize sedan that is known for its reliability, fuel efficiency, and comfortable ride. It also has a spacious interior and a variety of advanced safety features.",
+    "rating": 4.5
+  },
+  {
+    "make": "Subaru",
+    "model": "Outback",
+    "year": 2022,
+    "price": 35000,
+    "image": "https://i.ibb.co/QcZGBZd/car-Image20.jpg",
+    "description": "The Subaru Outback is a reliable and off-road-capable crossover.",
+    "rating": 4.6
+  },
+  {
+    "make": "Honda",
+    "model": "CR-V Hybrid",
+    "year": 2023,
+    "price": 29000,
+    "image": "https://i.ibb.co/jw8yd21/car-Image15.jpg",
+    "description": "The Honda CR-V Hybrid is a compact SUV that is known for its fuel efficiency, comfortable ride, and spacious interior. It also has a variety of advanced safety features.",
+    "rating": 4.8
+  },
+  {
+    "make": "Jeep",
+    "model": "Wrangler",
+    "year": 2022,
+    "price": 42000,
+    "image": "https://i.ibb.co/cw4L4Lr/car-Image14.jpg",
+    "description": "The Jeep Wrangler is a rugged and iconic off-road vehicle.",
+    "rating": 4.7
+  },
+  {
+    "make": "Hyundai",
+    "model": "Sonata",
+    "year": 2023,
+    "price": 27000,
+    "image": "https://i.ibb.co/7W5dBbc/car-Image4.jpg",
+    "description": "The Hyundai Sonata is a midsize sedan that is known for its sleek design, advanced technology features, and affordable price. It also has a spacious interior and a variety of safety features.",
+    "rating": 4.6
+  },
+  {
+    "make": "BMW",
+    "model": "X5",
+    "year": 2022,
+    "price": 55000,
+    "image": "https://i.ibb.co/m0QmdPK/car-Image10.jpg",
+    "description": "The BMW X5 is a luxury SUV known for its performance and technology.",
+    "rating": 4.9
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "year": 2022,
+    "price": 52000,
+    "image": "https://i.ibb.co/wQdLz4s/car-Image19.jpg",
+    "description": "The Mercedes-Benz C-Class is a luxury sedan with a smooth ride.",
+    "rating": 4.9
+  },
+  {
+    "make": "Hyundai",
+    "model": "Tucson",
+    "year": 2023,
+    "price": 26000,
+    "image": "https://i.ibb.co/5TRV5XF/car-Image17.jpg",
+    "description": "The Hyundai Tucson is a compact SUV that is known for its sleek design, advanced technology features, and affordable price. It also has a spacious interior and a variety of safety features.",
+    "rating": 4.6
+  },
+  {
+    "make": "Honda",
+    "model": "Accord",
+    "year": 2023,
+    "price": 28000,
+    "image": "https://i.ibb.co/5WSLsbn/car-Image2.jpg",
+    "description": "The Honda Accord is another midsize sedan that is popular for its reliability, fuel efficiency, and comfortable ride. It also has a sporty design and a variety of advanced technology features.",
+    "rating": 4.7
+  },
+  {
+    "make": "Hyundai",
+    "model": "Tucson",
+    "year": 2020,
+    "price": 19000,
+    "image": "https://i.ibb.co/c83djQ8/car-Image11.jpg",
+    "description": "The Hyundai Tucson is a compact SUV with great value and features.",
+    "rating": 4.2
+  },
+  {
+    "make": "Nissan",
+    "model": "Altima",
+    "year": 2023,
+    "price": 25000,
+    "image": "https://i.ibb.co/WKBNRpf/car-Image3.jpg",
+    "description": "The Nissan Altima is a midsize sedan that is known for its stylish design, comfortable interior, and affordable price tag. It also has a variety of advanced safety features.",
+    "rating": 4.3
+  },
+  {
+    "make": "Kia",
+    "model": "Sportage",
+    "year": 2023,
+    "price": 25000,
+    "image": "https://i.ibb.co/tKncdbP/car-Image18.jpg",
+    "description": "The Kia Sportage is a compact SUV that is known for its stylish design, comfortable interior, and affordable price tag. It also has a variety of advanced safety features.",
+    "rating": 4.5
+  },
+  {
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2022,
+    "price": 25000,
+    "image": "https://i.ibb.co/W3QsmXW/car-Image6.jpg",
+    "description": "The Toyota Camry is a reliable and fuel-efficient sedan.",
+    "rating": 4.5
+  },
+  {
+    "make": "Ford",
+    "model": "F-150",
+    "year": 2021,
+    "price": 35000,
+    "image": "https://i.ibb.co/x3FsbLn/car-Image7.jpg",
+    "description": "The Ford F-150 is a powerful and versatile pickup truck.",
+    "rating": 4.8
+  },
+  {
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2020,
+    "price": 20000,
+    "image": "https://i.ibb.co/DGtFYFM/car-Image8.jpg",
+    "description": "The Honda Civic is known for its sporty design and efficiency.",
+    "rating": 4.3
+  },
+  {
+    "make": "Kia",
+    "model": "K5",
+    "year": 2023,
+    "price": 26000,
+    "image": "https://i.ibb.co/z7f8VNw/car-Image5.jpg",
+    "description": "The Kia K5 is a midsize sedan that is known for its stylish design, comfortable interior, and affordable price tag. It also has a variety of advanced safety features.",
+    "rating": 4.5
+  },
+  {
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2023,
+    "price": 28000,
+    "image": "https://i.ibb.co/qmZhLDZ/car-Image13.jpg",
+    "description": "The Toyota Camry is a midsize sedan that is known for its reliability, fuel efficiency, and comfortable ride. It also has a spacious interior and a variety of advanced safety features.",
+    "rating": 4.7
+  },
+  {
+    "make": "Nissan",
+    "model": "Altima",
+    "year": 2021,
+    "price": 22000,
+    "image": "https://i.ibb.co/N7MVDRr/car-Image12.jpg",
+    "description": "The Nissan Altima is a comfortable and fuel-efficient sedan.",
+    "rating": 4.3
+  },
+  {
+    "make": "Nissan",
+    "model": "Rogue Sport",
+    "year": 2023,
+    "price": 24000,
+    "image": "https://i.ibb.co/pjp7s9J/car-Image16.jpg",
+    "description": "The Nissan Rogue Sport is a subcompact SUV that is known for its stylish design, comfortable interior, and affordable price tag. It also has a variety of advanced safety features.",
+    "rating": 4.4
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Malibu",
+    "year": 2021,
+    "price": 23000,
+    "image": "https://i.ibb.co/ry5pZ5W/car-Image9.jpg",
+    "description": "The Chevrolet Malibu is a stylish and comfortable family sedan.",
+    "rating": 4.4
+  }]
+  
