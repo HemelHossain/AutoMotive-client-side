@@ -42,12 +42,12 @@ const ManageCars = () => {
         <div className='md:pt-8 bg-base-200 min-h-screen mb-32'>
             <SectionTitle header='MANAGE ALL ITEMS' subHeader='Hurry Up!'></SectionTitle>
             
-            <div className='mt-8 lg:mt-10 bg-white mx-20 rounded pt-4'>
+            <div className='mt-8 lg:mt-10 md:w-[80%]  w-[80vw] bg-white mx-20 rounded pt-4'>
                 <p className='ml-10 text-3xl font-semibold mb-3'>Total Items: {items.length}</p>
-                <div className="overflow-x-auto rounded-t-2xl md:mx-8 mx-3 pb-6">
+                <div className="overflow-hidden overflow-x-auto md:mx-8 mx-3 pb-6">
                 <table className="table">
                     {/* head */}
-                    <thead className='bg-blue-700 text-white h-16'>
+                    <thead className='bg-blue-700 text-white'>
                         <tr>
                             <th>#</th>
                             <th>Car Image</th>

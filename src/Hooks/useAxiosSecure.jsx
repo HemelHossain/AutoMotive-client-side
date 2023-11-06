@@ -3,6 +3,7 @@ import { AuthContext } from '../AuthProvider/AuthProvider';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
+
 const axiosSecure = axios.create({
     baseURL: 'https://auto-motive-server-side.vercel.app'
 })

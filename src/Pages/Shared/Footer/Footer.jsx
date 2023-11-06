@@ -4,8 +4,8 @@ import { CgCopyright } from "react-icons/cg";
 
 const Footer = () => {
     return (
-        <div className='mt-40'>
-            <footer className="footer p-10 text-white bg-black pl-28">
+        <div>
+            <footer className="footer pl-2 pt-2 grid grid-cols-2 md:grid-cols-3 gap-x-14 text-white bg-black md:pl-28">
                 <nav>
                     <header className="footer-title">INFOMATION</header>
                     <a className="link link-hover flex items-center"><FaCaretRight className='w-3 h-4' /> Cars</a>
@@ -32,8 +32,8 @@ const Footer = () => {
                     </div>
                 </nav>
             </footer>
-            <footer className="footer py-6 border-t text-base-content border-base-300 pl-28">
-                <aside className="items-center grid-flow-col">
+            <footer className="footer py-6 border-t text-base-content border-base-300 md:pl-28">
+                <aside className="items-center grid-flow-col md:mx-0  mx-auto">
                     <FaSlackHash className='w-6 h-6' />
                     <p className='flex items-center'><CgCopyright className='w-6 h-6 mr-1' /> 2023 AutoPro. All Rights Reserved. Developed by HEMEL</p>
                 </aside>

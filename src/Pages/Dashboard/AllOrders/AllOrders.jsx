@@ -62,21 +62,21 @@ const AllOrders = () => {
   return (
     <div className='md:pt-3 bg-base-200 min-h-screen'>
       <SectionTitle header='MANAGE ALL Orders' subHeader='At a Glance!'></SectionTitle>
-      <div className='bg-white mx-10 md:mt-6 mt-4 rounded-lg'>
+      <div className='bg-white md:w-[80%] w-[80vw] mx-auto md:mt-6 mt-4 rounded-lg'>
       <p className='text-2xl font-semibold ml-8 pt-4 pb-2'>TOTAL ORDERS: {orders.length}</p>
-        <div className="overflow-x-auto mx-6 rounded-t-2xl mb-32 pb-6">
-          <table className="min-w-full">
-            <thead className='bg-blue-700  t-head text-white font-semibold'>
+        <div className="overflow-hidden  h-fit overflow-x-auto  md:mx-auto mb-32 pb-6">
+          <table className="mx-3">
+            <thead className='bg-blue-700 t-head text-white font-semibold h-8'>
               <tr className='text-sm'>
-                <th className="text-left px-4 py-4"> # </th>
-                <th className="text-left px-4 py-4"> Date </th>
-                <th className="text-left px-4 py-4"> Time </th>
-                <th className="text-left px-4 py-4"> Customer </th>
-                <th className="text-left px-4 py-4"> Email </th>
-                <th className="text-left px-4 py-4"> Car Price </th>
-                <th className="text-left px-4 py-4"> Car Model </th>
-                <th className="text-left px-4 py-4"> Activity </th>
-                <th className="text-left px-4 py-4"> Action </th>
+                <th className="text-left"> # </th>
+                <th className="text-left"> Date </th>
+                <th className="text-left"> Time </th>
+                <th className="text-left"> Customer </th>
+                <th className="text-left"> Email </th>
+                <th className="text-left"> Car Price </th>
+                <th className="text-left"> Car Model </th>
+                <th className="text-left"> Activity </th>
+                <th className="text-left"> Action </th>
               </tr>
             </thead>
             <tbody>

@@ -13,13 +13,13 @@ const CoverFeatured = () => {
         <Parallax
         blur={{ min: -50, max: 50 }}
         bgImage={coverImg}
-        className='md:h-[550px] sm:h-[700px] object-cover filter blur-none pt-12'
+        className='md:h-[600px] h-[700px] w-[100%] object-cover filter blur-none pt-12'
         bgImageAlt="the dog"
         strength={-200}
     >
         <div className='text-white'>
         <SectionTitle header='WELCOME To Automotive Car dealer' subHeader='about AutoMotive'></SectionTitle>
-        <div className='flex md:flex-row  sm:flex-col mt-10 items-center mx-auto justify-center md:gap-20 sm: gap-7 text-red-600 '>
+        <div className='flex md:flex-row flex-col mt-10 items-center mx-auto justify-center md:gap-20 sm: gap-7 text-red-600 '>
             <div className='flex items-center'>
                 <div>
                     <LiaCarSolid className='text-6xl mr-2' />

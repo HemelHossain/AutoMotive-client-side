@@ -56,37 +56,37 @@ const Login = () => {
 
     return (
         <div>
-            <div className="hero min-h-fit bg-base-100 card shadow-2xl w-3/4 mx-auto mt-32">
+            <div className="hero min-h-fit bg-base-100 card shadow-2xl w-3/4 mx-auto mt-32 mb-32">
                 <div className="hero-content  flex-col lg:flex-row justify-between">
                     <div className="text-center lg:text-left">
-                        <img className='w-[650px] h-[650px] mt-0' src={loginImg} alt="" />
+                        <img className='w-[650px] sm:h-[650px] mt-0' src={loginImg} alt="" />
                     </div>
                     <div className="card flex-shrink-0 w-full max-w-sm ">
-                        <h1 className="text-4xl font-bold text-center">Login now!</h1>
+                        <h1 className="md:text-4xl sm:text-2xl text-xl font-bold text-center">Login now!</h1>
                         <form onSubmit={handleSubmit(onSubmit)} className="card-body p-0">
 
-                            <div className="form-control">
+                            <div className="form-control sm:w-full w-[65vw]">
                                 <label className="label">
                                     <span className="label-text">Email</span>
                                 </label>
                                 <input type="email" placeholder="email" {...register("email", { required: true })} className="input input-bordered" />
                             </div>
 
-                            <div className="form-control">
+                            <div className="form-control sm:w-full w-[65vw]">
                                 <label className="label">
                                     <span className="label-text">Password</span>
                                 </label>
                                 <input type="password" placeholder="password" {...register("password", { required: true })} className="input input-bordered" />
                             </div>
 
-                            <div className="form-control">
+                            <div className="form-control sm:w-full w-[65vw]">
                                 <label className="label">
                                     <LoadCanvasTemplate />
                                 </label>
                                 <input onBlur={handleValidCaptcha} type="text" placeholder="Type the Captcha Above" className="input input-bordered" required />
                             </div>
 
-                            <div className="form-control mt-6">
+                            <div className="form-control mt-6 sm:w-full w-[65vw]">
                                 <label className="label">
                                     <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                                 </label>

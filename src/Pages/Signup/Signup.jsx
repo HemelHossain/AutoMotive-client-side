@@ -55,40 +55,40 @@ const Signup = () => {
 
     return (
         <div>
-            <div className="hero min-h-fit bg-base-100 card shadow-2xl w-3/4 mx-auto mt-32">
+            <div className="hero min-h-fit bg-base-100 card shadow-2xl w-3/4 mx-auto mt-32 mb-32">
                 <div className="hero-content  flex-col lg:flex-row justify-between">
                     <div className="card flex-shrink-0 w-full max-w-sm ">
                         <h1 className="text-4xl font-bold text-center">Sign Up Here</h1>
                         <form onSubmit={handleSubmit(onSubmit)} className="card-body p-0">
 
-                            <div className="form-control">
+                            <div className="form-control sm:w-full w-[60vw]">
                                 <label className="label">
                                     <span className="label-text">Name</span>
                                 </label>
                                 <input type="name" placeholder="Enter your name" {...register("name", { required: true })} className="input input-bordered" />
                             </div>
-                            <div className="form-control">
+                            <div className="form-control sm:w-full w-[60vw]">
                                 <label className="label">
                                     <span className="label-text">Photo Url</span>
                                 </label>
                                 <input type="name" placeholder="Enter photo url" {...register("photoURL", { required: true })} className="input input-bordered" />
                             </div>
 
-                            <div className="form-control">
+                            <div className="form-control sm:w-full w-[60vw]">
                                 <label className="label">
                                     <span className="label-text">Email</span>
                                 </label>
                                 <input type="email" placeholder="Your Email" {...register("email", { required: true })} className="input input-bordered" />
                             </div>
 
-                            <div className="form-control">
+                            <div className="form-control sm:w-full w-[60vw]">
                                 <label className="label">
                                     <span className="label-text">Password</span>
                                 </label>
                                 <input type="password" placeholder="password" {...register("password", { required: true })} className="input input-bordered" />
                             </div>
 
-                            <div className="form-control mt-6">
+                            <div className="form-control mt-6 sm:w-full w-[60vw]">
                                 <label className="label">
                                     <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                                 </label>
@@ -99,7 +99,7 @@ const Signup = () => {
                         <SocialLogin></SocialLogin>
                     </div>
                     <div className="text-center lg:text-left">
-                        <img className='w-[650px] h-[450px] mb-15' src={signupImg} alt="" />
+                        <img className='w-[650px] sm:h-[450px] h-[150px] mb-15' src={signupImg} alt="" />
                     </div>
                 </div>
             </div>
