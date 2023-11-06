@@ -2,7 +2,8 @@
 
 Welcome to AutoMotive Car ! 🌍🚗
 
-![automotive-car-web-app](https://i.ibb.co/GcCDX7S/screencapture-automotive-car-d90a6-web-app-2023-11-07-00-25-46.png)
+![Uploading screencapture-automotive-car-d90a6-web-app-2023-11-07-00_25_46.png…]()
+
 Live Link: 'https://automotive-car-d90a6.web.app'
 ## Overview
 Welcome to the Car Dealer Website project! This README provides essential 
