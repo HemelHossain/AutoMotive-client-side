@@ -2,7 +2,7 @@
 
 Welcome to AutoMotive Car ! 🌍🚗
 
-![Dream Explorer Banner](https://i.ibb.co/SrGJBRq/Screenshot.png)
+![AutoMotive Car Banner](https://i.ibb.co/GcCDX7S/screencapture-automotive-car-d90a6-web-app-2023-11-07-00-25-46.png)
 Live Link: 'https://automotive-car-d90a6.web.app'
 ## Overview
 Welcome to the Car Dealer Website project! This README provides essential 
