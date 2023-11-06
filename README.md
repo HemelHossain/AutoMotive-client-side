@@ -30,7 +30,7 @@ The Car Dealer Website is an online platform designed to help car dealers showca
 
 ## Getting Started
 
-1. Clone the repository: `https://github.com/HemelHossain/dream-explorer-client.git`
+1. Clone the repository: `https://github.com/HemelHossain/AutoMotive-client-side.git`
 2. Navigate to the project directory: `cd dream-explorer`
 3. Install dependencies: `npm install`
 4. Set up environment variables: Create a `.env` file based on `.env.example` and add your configuration details.
