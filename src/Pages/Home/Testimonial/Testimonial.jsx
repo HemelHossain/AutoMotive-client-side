@@ -13,7 +13,7 @@ const Testimonial = () => {
     const [ratings, setRatings] = useState([]);
     const [isExpand, setIsExpand] = useState(false);
     useEffect(() => {
-        fetch('http://localhost:5000/review')
+        fetch('https://auto-motive-server-side.vercel.app/review')
             .then(res => res.json())
             .then(data => setRatings(data))
     }, [])

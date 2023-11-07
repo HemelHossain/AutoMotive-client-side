@@ -34,7 +34,7 @@ export const Router = createBrowserRouter([
             {
                 path: 'purchase/:id',
                 element: <Purchase></Purchase>,
-                loader: ({params}) => fetch(`http://localhost:5000/${params.id}`)
+                loader: ({params}) => fetch(`https://auto-motive-server-side.vercel.app/${params.id}`)
             },
             {
                 path: 'login',
