@@ -6,6 +6,7 @@ import { AuthContext } from '../../../AuthProvider/AuthProvider';
 import Swal from 'sweetalert2';
 import { useNavigate } from 'react-router-dom';
 import useAxiosSecure from '../../../Hooks/useAxiosSecure';
+import { Helmet } from 'react-helmet-async';
 
 
 const Review = () => {
@@ -38,6 +39,9 @@ const Review = () => {
     }
     return (
         <div >
+            <Helmet>
+                <title>AutoMotive Car | Add Review</title>
+            </Helmet>
             <SectionTitle subHeader='Sharing is careing' header='Give a Review'></SectionTitle>
             <div className='bg-base-200 w-4/5 mx-auto px-20 mt-10 pb-20'>
                 <h4 className='text-2xl text-center pt-6'>RATE US</h4>

@@ -4,6 +4,7 @@ import { useQuery } from '@tanstack/react-query';
 import { HiTrash } from 'react-icons/hi';
 import Swal from 'sweetalert2';
 import SectionTitle from '../../../Components/SectionTitle/SectionTitle';
+import { Helmet } from 'react-helmet-async';
 const AllOrders = () => {
   const [axiosSecure] = useAxiosSecure();
   const { data: orders = [], refetch } = useQuery({
@@ -61,6 +62,9 @@ const AllOrders = () => {
 
   return (
     <div className='md:pt-3 bg-base-200 min-h-screen'>
+      <Helmet>
+                <title>AutoMotive Car | All Orders</title>
+            </Helmet>
       <SectionTitle header='MANAGE ALL Orders' subHeader='At a Glance!'></SectionTitle>
       <div className='bg-white md:w-[80%] w-[80vw] mx-auto md:mt-6 mt-4 rounded-lg'>
       <p className='text-2xl font-semibold ml-8 pt-4 pb-2'>TOTAL ORDERS: {orders.length}</p>

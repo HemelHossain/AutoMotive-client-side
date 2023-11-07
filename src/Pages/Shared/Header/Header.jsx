@@ -3,10 +3,12 @@ import { Link } from 'react-router-dom'
 import { logo } from '../../../assets/ImagesJsx/Image';
 import { AuthContext } from '../../../AuthProvider/AuthProvider';
 import { HiMenuAlt2 } from "react-icons/hi";
+import useAdmin from '../../../Hooks/useAdmin';
 
 
 const Header = () => {
     const { users, logOut } = useContext(AuthContext);
+    const [isAdmin] = useAdmin();
 
                     // Log Out option 
     const handleLogOut = () => {
@@ -21,11 +23,8 @@ const Header = () => {
     const navOption = <>
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/allcars'>All Cars</Link></li>
-        {
-            users? <li><Link to='/dashboard/users'>Dashboard</Link></li> 
-            :
-            <></>
-        }
+        <li><Link to={isAdmin? '/dashboard/users': '/dashboard/mycart'}>Dashboard</Link></li> 
+            
         
 
 

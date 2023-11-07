@@ -2,10 +2,10 @@ import React, { useContext, useEffect } from 'react';
 import { AuthContext } from '../AuthProvider/AuthProvider';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-
+// http://localhost:5000s
 
 const axiosSecure = axios.create({
-    baseURL: 'https://auto-motive-server-side.vercel.app'
+    baseURL: 'http://localhost:5000'
 })
 
 const useAxiosSecure = () => {

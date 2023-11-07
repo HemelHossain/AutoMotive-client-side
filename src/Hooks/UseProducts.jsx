@@ -5,7 +5,7 @@ const UseProducts = () => {
     const {data: items = [], refetch} = useQuery({
         queryKey: ['items'],
         queryFn: async() => {
-           const res= await fetch('https://auto-motive-server-side.vercel.app/cars');
+           const res= await fetch('http://localhost:5000/cars');
            return res.json()
         }
     })

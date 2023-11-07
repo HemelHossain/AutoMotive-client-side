@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 import useAxiosSecure from '../../../Hooks/useAxiosSecure';
 import { useContext } from 'react';
 import { AuthContext } from '../../../AuthProvider/AuthProvider';
+import { Helmet } from 'react-helmet-async';
 
 const MyOrder = () => {
     const [orders, setOrders] = useState([]);
@@ -20,6 +21,9 @@ const MyOrder = () => {
     }, [axiosSecure, users?.email]);
     return (
         <div className='md:pt-8 bg-base-200 min-h-screen mb-32'>
+            <Helmet>
+                <title>AutoMotive Car | My Orders</title>
+            </Helmet>
             <SectionTitle subHeader='How many?' header='MANAGE ALL USERS'></SectionTitle>
             <div className='bg-white rounded mx-10 mt-10 md:mx-20'>
                 <p className='ml-10 text-3xl font-semibold mb-3 pt-4'>Total Users: {orders.length}</p>

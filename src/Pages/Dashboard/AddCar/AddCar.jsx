@@ -2,6 +2,7 @@ import React from 'react';
 import SectionTitle from '../../../Components/SectionTitle/SectionTitle';import { useForm } from 'react-hook-form';
 import useAxiosSecure from '../../../Hooks/useAxiosSecure';
 import Swal from 'sweetalert2';
+import { Helmet } from 'react-helmet-async';
 
 const image_hosting_token = import.meta.env.VITE_IMAGE_UPLOAD_TOKEN;
 
@@ -48,6 +49,9 @@ const AddCar = () => {
     })
     return (
         <div className='md:mt-8 mb-16'>
+            <Helmet>
+                <title>AutoMotive Car | Add Car</title>
+            </Helmet>
             <SectionTitle subHeader="What's New" header='Add An Item'></SectionTitle>
 
             <div className="max-w-2xl md:mx-auto mt-10 p-6 bg-white rounded-md shadow-md mx-10">

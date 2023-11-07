@@ -5,6 +5,7 @@ import { FaUserShield } from 'react-icons/fa';
 import Swal from 'sweetalert2';
 import useAxiosSecure from '../../../Hooks/useAxiosSecure';
 import SectionTitle from '../../../Components/SectionTitle/SectionTitle';
+import { Helmet } from 'react-helmet-async';
 
 const AllUsers = () => {
     const [axiosSecure] = useAxiosSecure();
@@ -59,7 +60,11 @@ const AllUsers = () => {
     }
 
     return (
+
         <div className='bg-base-200 min-h-screen mb-32'>
+            <Helmet>
+                <title>AutoMotive Car | All Users</title>
+            </Helmet>
             <SectionTitle subHeader='How many?' header='MANAGE ALL USERS' />
 
             <div className='bg-white rounded md:w-[80%] w-[80vw] mx-auto mt-4 sm:mt-6 md:mt-10'>

@@ -14,7 +14,7 @@ const SocialLogin = () => {
                 const user = result.user;
                 const saveUser = {name: user.displayName, email: user.email, photoURL: user.photoURL}
                             //  upload user to server 
-                fetch('https://auto-motive-server-side.vercel.app/users',{
+                fetch('http://localhost:5000/users',{
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'

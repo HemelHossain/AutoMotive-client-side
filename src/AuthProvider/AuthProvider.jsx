@@ -41,7 +41,7 @@ const AuthProvider = ({children}) => {
         const unSubscribe =onAuthStateChanged(auth, currentUser =>{
             setUsers(currentUser);
             if(currentUser){
-                axios.post('https://auto-motive-server-side.vercel.app/jwt', {
+                axios.post('http://localhost:5000/jwt', {
                     email: currentUser.email
                 })
                 .then(data =>{
